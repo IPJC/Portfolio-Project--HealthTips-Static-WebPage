@@ -2052,7 +2052,8 @@ button,
           content: '';
           display: block;
           height: 4em;
-          width: 100%; }
+          width: 100%; 
+        }
       #sidebar .toggle {
         text-indent: 6em;
         width: 6em; }
@@ -2313,7 +2314,7 @@ button,
     margin-top: 0;
     padding-top: 0; }
 
-/* header modification visibility */
+/* header modification visibility AKA Toggle menu or header menu */
   @media screen and (max-width: 736px) {
     #header{
       padding-top: 3em;
@@ -2336,7 +2337,15 @@ button,
       margin-top: 5em;
     }
     section#links, #header ul {
-      display: none;} 
+      display: none;}
+    
+    #sidebar section{
+      display:flex;
+      margin: 1em 0;
+    } 
+    #sidebar footer p{
+      margin: 0 2em;
+    }
     #footermain {
       display: none;}}  
   
